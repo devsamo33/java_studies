@@ -1,0 +1,24 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		List<String> list =new ArrayList<>();
+
+		list.add("bruno");
+		list.add("gerlin");
+		list.add("assalaia");
+		list.add("abacaxoraio");
+		list.add(2, "balanoio");
+		
+		for (String x : list) {
+			System.out.println(x);
+		}
+		
+	}
+
+}
